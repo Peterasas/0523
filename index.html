@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="css/animate.css">
+<link href="新增資料夾/css.css" rel="stylesheet" type="text/css">
+<style type="text/css"></style>
+<script src="js/jquery.min.js"></script> 
+<script src="js/parallaxie.min.js"></script> 
+<script src="js/wow.min.js"></script>
+</head>
+
+<body>
+<header>
+  <nav>
+    <h1 class="wow bounceIn"><a href="#">鄭氏王朝:鄭成功</a></h1>
+    <ul>
+      <h3><a href="#a01">家庭</a></h3>
+      <h3><a href="#a02">生平經歷</a></h3>
+      <h3><a href="#a03">成就</a></h3>
+    </ul>
+  </nav>
+</header>
+<main>
+  <article class="family wow rotateInDownLeft" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="40">
+    <h2 id="a01">
+      <div class="wow fadeIn" data-wow-delay="2s" data-wow-offset="100">家庭</div>
+    </h2>
+    <h3 class="wow fadeInLeft" data-wow-delay="2.5s" data-wow-offset="120">鄭成功的母親田川氏是日本人。歷史文獻又稱田川氏為「翁氏」，而父親為當時大名鼎鼎的海盜鄭芝龍。老婆為董友，子嗣為鄭經。</h3>
+    <div class="contain1">
+      <div class="pic1 wow bounceInLeft" data-wow-delay="2.5s" data-wow-offset="140">
+        <div class="word1 "> 田川氏 </div>
+      </div>
+      <div class="pic2 wow bounceIn" data-wow-delay="3s" data-wow-offset="150">
+        <div class="word1">鄭芝龍</div>
+      </div>
+      <div class="pic3 wow bounceInDown" data-wow-delay="3.5s" data-wow-offset="160">
+        <div class="word1">董友</div>
+      </div>
+      <div class="pic4 wow bounceInRight" data-wow-delay="4s" data-wow-offset="170">
+        <div class="word1">鄭經</div>
+      </div>
+    </div>
+  </article>
+  <article class="experience">
+    <h2 id="a02">
+      <div class="wow bounceIn" data-wow-delay="1s" data-wow-offset="140">生平經歷</div>
+    </h2>
+    <h3 class="wow lightSpeedIn" data-wow-delay="1.5s" data-wow-offset="150">鄭成功的乳名是福松，於七歲回到泉州就讀儒式學校，並改名為鄭森。且於二十歲到南京國子監深造，二十一歲時獲得南明隆武帝賜姓明的國姓「朱」，人稱「國姓爺」。並於三十八歲時攻下台灣的荷蘭政權，後建立明鄭。</h3>
+    <div class="container">
+      <div class="left wow rotateInUpLeft" data-wow-delay="3s" data-wow-offset="200">
+        <div class="word1">南明隆武帝賜朱姓</div>
+      </div>
+      <div class="middle wow fadeInUp" data-wow-delay="4s" data-wow-offset="270">
+        <div class="word1">鄭氏攻台打敗荷蘭政權</div>
+      </div>
+      <div class="right wow rotateInUpRight" data-wow-delay="3.5s" data-wow-offset="270">
+        <div class="word1">南投縣國姓鄉鄭成功公園 </div>
+      </div>
+    </div>
+  </article>
+  <article class="achievement wow rotateIn" data-wow-offset="450">
+    <h2 id="a03">成就</h2>
+    <div class="video wow zoomInDown" data-wow-delay="3s">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/WM_WUQxPJ0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	  
+		
+    </div>
+  </article>
+</main>
+<script>
+$('header').parallaxie({speed:0.8, offset:42});
+</script>
+	<script>
+$('.family').parallaxie({speed:0.6});
+</script> 
+	<script>
+$('.experience').parallaxie({speed:0.7, offset:42});
+</script> 
+	<script>
+$('.achuevement').parallaxie({speed:0.9});
+</script>
+<script>
+new WOW().init();
+</script>
+</body>
+</html>

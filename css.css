@@ -1,0 +1,269 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap');
+nav {
+    background-color: rgba(111,75,75,0.66);
+    width: 100%;
+    height: 46px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 21px;
+    -webkit-box-shadow: 0px 1px rgba(239, 129, 131, 1.00);
+    box-shadow: 0px 1px rgba(239, 129, 131, 1.00);
+    border-top-style: inset;
+    border-bottom-style: ridge;
+    position: fixed;
+    margin-top: -10px;
+    margin-left: -9px;
+    opacity: 0.8;
+    float: left;
+}
+body nav ul {
+  display: flex;
+  text-align: left;
+  margin-right: 24px;
+  font-size: 16px;
+  font-weight: lighter;
+  text-indent: 14px;
+}
+a:link {
+    color: rgba(251,251,251,1.00);
+    text-decoration: none;
+}
+a:visited {
+  color: rgba(215, 185, 185, 0.49);
+}
+a:hover {
+  text-decoration: overline;
+  color: rgba(173, 60, 60, 0.82);
+}
+h1 {
+    display: flex;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: xx-large;
+    font-style: normal;
+    color: rgba(12, 38, 8, 1.00);
+    -webkit-transition: all 3ms ease-in-out 4ms;
+    -o-transition: all 3ms ease-in-out 4ms;
+    transition: all 3ms ease-in-out 4ms;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    border-radius: 21px;
+    background-image: url(../The_Portrait_of_Koxinga.jpg);
+    padding-top: 0px;
+    margin-top: 8px;
+    background-position: center bottom;
+}
+.family {
+    background-color: rgba(71,81,54,1.00);
+    border-radius: 21px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 3px;
+}
+article h2 {
+    width: 100%;
+    border-radius: 31px;
+    text-align: center;
+    padding-top: 44px;
+    font-size: xx-large;
+}
+.family h2 {
+    color: rgba(197,193,193,1.00);
+}
+.family h3 {
+    color: rgba(199,175,175,1.00);
+}
+
+
+article h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+.container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  height: 450px;
+  margin-right: auto;
+  /* [disabled]margin-top: 20px; */
+  /* [disabled]margin-bottom: 20px; */
+}
+.container .left {
+  flex: 1;
+  background-image: url(../%E6%9C%B1%E5%A7%93.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  text-align: center;
+  margin-right: 10px;
+}
+.container .middle {
+    background-image: url(../%E6%94%BB%E5%8F%B0.jpg);
+    flex: 1;
+    background-position: center center;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    background-size: cover;
+}
+.container .right {
+  background-image: url(../%E5%9C%8B%E5%A7%93%E7%88%BA.png);
+  flex: 1;
+  background-position: center center;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  margin-left: 10px;
+}
+.word {
+  background-color: rgba(153, 146, 240, 0.79);
+  width: 100%;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  font-weight: bold;
+}
+.contain1 {
+  display: flex;
+  width: 90%;
+  height: 450px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pic1 {
+  flex: 1;
+  background-image: url(../%E7%BF%81%E5%A4%AA%E5%A4%AB%E4%BA%BA.jpg);
+  background-size: cover;
+  background-position: center 0%;
+  margin-right: 10px;
+  align-items: flex-end;
+  display: flex;
+}
+.pic2 {
+  flex: 1;
+  background-image: url(../Koxinga_and_Zheng_Zhilong.jpg);
+  background-position: center 0%;
+  background-size: cover;
+  margin-right: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.pic3 {
+  flex: 1;
+  background-image: url(../%E9%84%AD%E6%88%90%E5%8A%9F%E7%8E%8B%E5%A6%83%E8%91%A3%E6%B0%8F.jpg);
+  background-size: cover;
+  background-position: center 0%;
+  margin-right: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.pic4 {
+  flex: 1;
+  background-image: url(../%E9%84%AD%E7%B6%93.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  margin-right: -5px;
+  display: flex;
+  align-items: flex-end;
+}
+.experience {
+    border-radius: 21px;
+    width: 100%;
+    margin-top: -28px;
+    height: 100vh;
+    background-image: url(../%E5%8D%97%E6%98%8E.png);
+}
+.experience h3 {
+    background-color: rgba(159,137,137,0.77);
+}
+
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.pic1:hover .word1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.word1{
+    bottom: 0;
+    background: #333;
+    color: #fff;
+    opacity: 0.8;
+    display: none;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.pic2:hover .word1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.pic3:hover .word1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.pic4:hover .word1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.right:hover .word1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.left:hover .word1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.middle:hover .word1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}h1:hover {
+    color: rgba(51,134,38,1);
+}
+.ose.wow.flip {
+}
+.video {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 22px;
+}
+.achievement {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(71,81,54,1.00);
+    border-radius: 21px;
+    margin-top: -27px;
+}
+.achievement h2 {
+    color: rgba(197,193,193,1.00);
+}
